@@ -1,19 +1,19 @@
 {
-    "env": {
-        "es6": true,
-        "browser": true,
-        "node": true
-    },
-    "extends": ["airbnb", "airbnb/hooks", "prettier"],
-    "plugins": ["prettier"],
-    "rules": {
-        "indent": ["error", 4],
-        "quotes": ["error", "double"],
-        "prettier/prettier": ["error"],
-        "react/jsx-closing-bracket-location": [0],
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-        "react/jsx-indent": ["error", 4],
-        "react/jsx-indent-props": ["error", 4],
-        "react/prop-types": [0]
-    }
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": ["airbnb", "airbnb/hooks", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "indent": ["error", 4],
+    "quotes": ["error", "double"],
+    "prettier/prettier": ["error"],
+    "react/jsx-closing-bracket-location": [0],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4],
+    "react/prop-types": [0]
+  }
 }

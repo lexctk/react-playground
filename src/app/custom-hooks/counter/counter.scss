@@ -1,0 +1,11 @@
+.counter {
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 2rem;
+
+    &__button {
+        max-width: fit-content;
+        padding: 10px 20px;
+        background: #86d993;
+    }
+}

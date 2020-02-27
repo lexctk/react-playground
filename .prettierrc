@@ -1,6 +1,29 @@
 {
-    "printWidth": 140,
-    "jsxBracketSameLine": true,
-    "tabWidth": 4,
-    "endOfLine": "lf"
+  "printWidth": 140,
+  "jsxBracketSameLine": true,
+  "tabWidth": 4,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": [".*rc", "*.json"],
+      "options": {
+        "parser": "json",
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.html"],
+      "options": {
+        "printWidth": 120,
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.css", "*.scss"],
+      "options": {
+        "printWidth": 120,
+        "tabWidth": 2
+      }
+    }
+  ]
 }
